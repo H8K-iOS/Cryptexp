@@ -1,17 +1,17 @@
-//
-//  CryptexpApp.swift
-//  Cryptexp
-//
-//  Created by Oleksandr Alimov on 05/08/24.
-//
-
 import SwiftUI
 
 @main
 struct CryptexpApp: App {
+    
+    @StateObject private var vm = HomeViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeView()
+                    .navigationBarHidden(true)
+            }
+            .environmentObject(vm)
         }
     }
 }
