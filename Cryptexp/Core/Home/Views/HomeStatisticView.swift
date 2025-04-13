@@ -14,6 +14,8 @@ struct HomeStatisticView: View {
         }
             .frame(width: UIScreen.main.bounds.width,
                    alignment: showPortfolio ? .trailing : .leading)
+        
+        
     }
 }
 

@@ -20,4 +20,8 @@ final class CoinDataService {
             })
             .store(in: &cancelable)
     }
+    
+    public func update() {
+        getCoins()
+    }
 }

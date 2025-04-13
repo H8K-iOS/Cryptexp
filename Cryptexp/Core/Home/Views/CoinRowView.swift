@@ -18,6 +18,7 @@ struct CoinRowView: View {
             
             self.rightColumn
         }
+        .background(Color.theme.backgroundColor)
         .font(.subheadline)
         .padding(.horizontal, 10)
     }

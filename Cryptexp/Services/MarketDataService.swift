@@ -19,4 +19,8 @@ final class MarketDataService {
             })
             .store(in: &cancelable)
     }
+    
+    public func update() {
+        getStats()
+    }
 }
