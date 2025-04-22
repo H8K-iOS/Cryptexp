@@ -47,6 +47,7 @@
 		A0BCF6432DAC103C0039FB34 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BCF6422DAC103B0039FB34 /* ChartView.swift */; };
 		A0BCF6452DAC1B1D0039FB34 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BCF6442DAC1B1D0039FB34 /* Date+Extensions.swift */; };
 		A0BCF6472DAC516A0039FB34 /* Strinng+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BCF6462DAC516A0039FB34 /* Strinng+Extensions.swift */; };
+		A0BCF64B2DB81C6D0039FB34 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0BCF64A2DB81C6D0039FB34 /* SettingsView.swift */; };
 		A0EE15112D8750A000230497 /* HapticManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0EE15102D8750A000230497 /* HapticManager.swift */; };
 /* End PBXBuildFile section */
 
@@ -111,6 +112,7 @@
 		A0BCF6422DAC103B0039FB34 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		A0BCF6442DAC1B1D0039FB34 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		A0BCF6462DAC516A0039FB34 /* Strinng+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strinng+Extensions.swift"; sourceTree = "<group>"; };
+		A0BCF64A2DB81C6D0039FB34 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		A0EE15102D8750A000230497 /* HapticManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -218,6 +220,7 @@
 				A00CD7E02C60DBF900C50F73 /* Components */,
 				A00CD7DB2C60D9E300C50F73 /* Home */,
 				A0BCF6362D96F4CC0039FB34 /* Detail */,
+				A0BCF6482DB81C3E0039FB34 /* Settings */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -365,6 +368,22 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		A0BCF6482DB81C3E0039FB34 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				A0BCF6492DB81C560039FB34 /* Views */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A0BCF6492DB81C560039FB34 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A0BCF64A2DB81C6D0039FB34 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -501,6 +520,7 @@
 				A00CD8012C64AD7600C50F73 /* CoinImageViewModel.swift in Sources */,
 				A00CD7FD2C64A90300C50F73 /* CoinImageView.swift in Sources */,
 				A00CD8242C6B57AB00C50F73 /* PortfolioContainer.xcdatamodeld in Sources */,
+				A0BCF64B2DB81C6D0039FB34 /* SettingsView.swift in Sources */,
 				A00CD7FA2C636DDF00C50F73 /* CoinDataService.swift in Sources */,
 				A0BCF6472DAC516A0039FB34 /* Strinng+Extensions.swift in Sources */,
 				A0BCF63C2DA2D1AC0039FB34 /* CoinDetailDataService.swift in Sources */,
